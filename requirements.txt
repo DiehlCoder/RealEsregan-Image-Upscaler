@@ -1,0 +1,15 @@
+# Core Image Processing
+pillow>=10.0.0,<13.0
+numpy>=1.24.0
+
+# PyTorch Deep Learning & ESRGAN Model Loader
+# For NVIDIA RTX 50-Series (Blackwell sm_120 like RTX 5060 Ti, 5070, 5080, 5090):
+# PyTorch MUST be installed with CUDA 12.8+ (cu128) support:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.4.0
+torchvision>=0.19.0
+spandrel>=0.3.0
+huggingface_hub>=0.20.0
+
+# Web-UI (Gradio) für app_wallpaper_upscaler.py
+gradio>=4.0.0

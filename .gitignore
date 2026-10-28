@@ -1,0 +1,92 @@
+# =====================================================================
+# Python & Bytecode
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =====================================================================
+# Virtual Environments
+# =====================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# =====================================================================
+# IDEs & Editors
+# =====================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# =====================================================================
+# AI / Deep Learning Weights & Checkpoints
+# (Downloaded automatically on first launch via Hugging Face Hub)
+# =====================================================================
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+models/*.safetensors
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.onnx
+
+# Keep the models folder tracked in git even if empty
+!models/.gitkeep
+
+# =====================================================================
+# Project Input & Output Wallpapers
+# (Do not commit user personal images or massive 4K/8K batch outputs)
+# =====================================================================
+input_wallpapers/*
+output_wallpapers/*
+
+# Keep directory structures tracked in git using .gitkeep files
+!input_wallpapers/.gitkeep
+!output_wallpapers/.gitkeep
+!output_wallpapers/desktop_horizontal/.gitkeep
+!output_wallpapers/mobile_vertical/.gitkeep
+
+# =====================================================================
+# Gradio & Web Application Cache / Temp Files
+# =====================================================================
+gradio_cached_examples/
+.gradio/
+tmp/
+temp/
+
+# =====================================================================
+# Legacy / Unused artifacts
+# =====================================================================
+realesrgan-ncnn-vulkan/
+*.log
